@@ -5,20 +5,20 @@ import Image from 'next/image';
 
 const slider1 = [
     {
-        color: "#1a8f00",
-        src: "3D.png"
+        color: "#d7d4cf",
+        src: "data_cluster.png"
     },
     {
         color: "#d6d7dc",
-        src: "decimal.jpg"
+        src: "3D.png"
     },
     {
         color: "#e3e3e3",
-        src: "funny.jpg"
+        src: "trinity.gif"
     },
     {
         color: "#21242b",
-        src: "google.jpg"
+        src: "maven.jpg"
     }
 ]
 
@@ -29,7 +29,7 @@ const slider2 = [
     },
     {
         color: "#e5e0e1",
-        src: "panda.jpg"
+        src: "mobilis2.png"
     },
     {
         color: "#d7d4cf",
@@ -37,11 +37,11 @@ const slider2 = [
     },
     {
         color: "#e1dad6",
-        src: "wix.jpg"
+        src: "image.jpg"
     }
 ]
 
-export default function index() {
+export default function Contact() {
 
     const container = useRef(null);
     const { scrollYProgress } = useScroll({

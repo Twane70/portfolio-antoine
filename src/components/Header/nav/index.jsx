@@ -9,7 +9,7 @@ import Footer from './Footer';
 
 const navItems = [
   {
-    title: "Home",
+    title: "Accueil",
     href: "#Accueil",
   },
   {
@@ -26,7 +26,7 @@ const navItems = [
   },
 ]
 
-export default function index() {
+export default function Nav() {
 
   const pathname = usePathname();
   const [selectedIndicator, setSelectedIndicator] = useState(pathname);

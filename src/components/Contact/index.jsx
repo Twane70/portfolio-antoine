@@ -2,10 +2,10 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
 import { useRef } from 'react';
-import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
+import { useScroll, motion, useTransform } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
 
-export default function index() {
+export default function Contact() {
     const container = useRef(null);
     const { scrollYProgress } = useScroll({
         target: container,
@@ -28,7 +28,7 @@ export default function index() {
                         </div>
                         <h2>Alors, quand est-ce</h2>
                     </span>
-                    <h2>qu'on s'y met ?</h2>
+                    <h2>{"qu'on s'y met ?"}</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <a href='https://calendly.com/antoinetondu/meeting-1hr' target='_blank'>
                             <Rounded  backgroundColor={"#334BD3"} className={styles.button}>

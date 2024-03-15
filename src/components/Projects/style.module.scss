@@ -18,7 +18,7 @@
     
     .modalContainer{
         height: 350px;
-        width: 400px;
+        width: 600px;
         position: fixed;
         top: 50%;
         left: 50%;
@@ -36,11 +36,16 @@
     }
     
     .modal{
+        margin-left: 1rem;
         height: 100%;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
+        p{
+            color: white;
+            margin-left: 2rem;
+        }
     }
     
     .modal img{
